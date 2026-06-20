@@ -1,76 +1,159 @@
 # 🏦 Home Loan Default Risk Prediction System
 
-A Machine Learning-based Banking Risk Assessment System developed using XGBoost and Streamlit to predict the probability of home loan default. This application helps financial institutions assess loan applicants and identify high-risk borrowers before loan approval.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-XGBoost-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-## 📌 Features
+---
 
-- User Authentication (Login System)
-- Single Applicant Loan Default Prediction
-- Bulk Prediction using CSV Upload
-- Default Probability Score
-- High Risk / Low Risk Classification
-- Interactive Streamlit Dashboard
-- Download Prediction Results
-- Machine Learning Model using XGBoost
+## 🚀 Live Demo
 
-## 🛠️ Technologies Used
+👉 Add your Streamlit deployment URL here after deployment
 
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
-- XGBoost
-- Imbalanced-Learn (SMOTE)
-- Joblib
+---
 
-## 📊 Input Features
+## 📌 About the Project
 
-The model uses applicant information such as:
+Home Loan Default Risk Prediction System is a Machine Learning-based banking risk assessment application designed to predict the probability of a borrower defaulting on a home loan.
 
-- Total Income
-- Credit Amount
-- Annuity Amount
-- Days Birth
-- Days Employed
-- Gender
-- Education Type
-- Family Status
-- Number of Children
-- Family Members
-- Own Car Status
+The project helps financial institutions identify high-risk applicants before loan approval, enabling better risk management and more informed lending decisions.
 
-## 🚀 How to Run Locally
+The application provides both individual customer prediction and bulk prediction through CSV file uploads.
 
-### Clone Repository
+---
+
+## 🧠 How it Works
+
+* Applicant information is collected through an interactive web interface
+* Data is preprocessed and transformed into a machine-learning-ready format
+* The trained XGBoost model evaluates the applicant profile
+* Default probability is calculated
+* The system classifies the applicant as Low Risk or High Risk
+* Results are displayed instantly through the Streamlit dashboard
+
+---
+
+## 📊 Features Used
+
+* Total Income
+* Credit Amount
+* Annuity Amount
+* Days Birth
+* Days Employed
+* Gender
+* Education Type
+* Family Status
+* Number of Children
+* Family Members
+* Car Ownership Status
+
+---
+
+## 🤖 Model Details
+
+The final model used is **XGBoost Classifier**.
+
+Several machine learning models were trained and compared, including:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Naive Bayes
+* Artificial Neural Network (ANN)
+* XGBoost
+
+Based on ROC-AUC score and overall performance, XGBoost was selected as the final model.
+
+---
+
+## 📈 Evaluation Metrics
+
+The model was evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC Score
+
+ROC-AUC was used as the primary evaluation metric because the dataset contains class imbalance and requires effective risk discrimination.
+
+---
+
+## 🖥️ Application Features
+
+### 🔐 Secure Login System
+
+* User authentication before accessing prediction modules
+
+### 👤 Single Prediction
+
+* Predict default probability for an individual applicant
+
+### 📂 Bulk Prediction
+
+* Upload CSV files
+* Predict multiple applicants at once
+* Download prediction results
+
+### 📊 Risk Assessment Dashboard
+
+* Default Probability (%)
+* High Risk / Low Risk Classification
+* Real-time Results
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* Imbalanced-Learn (SMOTE)
+* Joblib
+* Streamlit
+
+---
+
+## ⚙️ Run Locally
 
 ```bash
 git clone https://github.com/mohsiniqubal/home-loan-default-prediction.git
+
 cd home-loan-default-prediction
-```
 
-### Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-### Run Streamlit Application
-
-```bash
 streamlit run app.py
 ```
 
-The application will open at:
+---
 
-```
-http://localhost:8501
-```
+## 🌍 Deployment
+
+The application is deployed using **Streamlit Community Cloud** and can be accessed through any web browser without local installation.
+
+---
+
+## ✨ Project Highlights
+
+* End-to-End Machine Learning Pipeline
+* Banking Risk Assessment System
+* Single and Bulk Prediction Modules
+* User Authentication
+* Interactive Streamlit Dashboard
+* Real-Time Default Risk Prediction
+* Industry-Oriented Financial Analytics Project
+
+---
 
 ## 📂 Project Structure
 
 ```text
-home-loan-default-prediction/
+home-loan-default-prediction
 │
 ├── app.py
 ├── best_home_loan_model.pkl
@@ -80,46 +163,31 @@ home-loan-default-prediction/
 └── README.md
 ```
 
-## 📈 Machine Learning Workflow
+---
 
-1. Data Collection
-2. Data Cleaning & Preprocessing
-3. Feature Engineering
-4. Handling Class Imbalance using SMOTE
-5. Model Training using XGBoost
-6. Model Evaluation
-7. Streamlit Deployment
+## 🎓 Academic Information
 
-## 🎯 Prediction Output
+**Degree:** Master of Computer Applications (MCA)
 
-The system provides:
+**University:** Tezpur University
 
-- Default Probability (%)
-- Risk Category
-  - Low Risk
-  - High Risk
-- Bulk Prediction Results
 
-## 📷 Application Screens
+---
 
-- Login Page
-- Single Prediction Module
-- Prediction Result Dashboard
-- Bulk Prediction Module
+## ⚠️ Disclaimer
+
+This system provides predictions based on historical data and machine learning algorithms. The results should be used as a decision-support tool and not as the sole basis for financial decisions.
+
+---
 
 ## 👨‍💻 Author
 
-**Mohsin Iqubal**
+### Mohsin Iqubal
 
-- MCA, Tezpur University
+🔗 LinkedIn: https://www.linkedin.com/in/mohsin-iqubal-805145129/
 
+🔗 GitHub: https://github.com/mohsiniqubal
 
-LinkedIn:
-https://www.linkedin.com/in/mohsin-iqubal-805145129/
+---
 
-GitHub:
-https://github.com/mohsiniqubal
-
-## 📄 License
-
-This project is developed for academic and educational purposes.
+⭐ If you found this project useful, consider giving the repository a star.
