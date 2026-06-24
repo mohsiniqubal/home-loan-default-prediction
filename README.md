@@ -1,4 +1,4 @@
-# 🏦 Home Loan Default Risk Prediction System
+# Home Loan Default Risk Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit)
@@ -7,13 +7,13 @@
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-👉 Add your Streamlit deployment URL here after deployment
+https://home-loan-default-prediction-bysv2vz6iaqz9sjrrtyryn.streamlit.app/
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 Home Loan Default Risk Prediction System is a Machine Learning-based banking risk assessment application designed to predict the probability of a borrower defaulting on a home loan.
 
@@ -23,7 +23,7 @@ The application provides both individual customer prediction and bulk prediction
 
 ---
 
-## 🧠 How it Works
+## How it Works
 
 * Applicant information is collected through an interactive web interface
 * Data is preprocessed and transformed into a machine-learning-ready format
@@ -50,7 +50,7 @@ The application provides both individual customer prediction and bulk prediction
 
 ---
 
-## 🤖 Model Details
+## Model Details
 
 The final model used is **XGBoost Classifier**.
 
@@ -67,7 +67,7 @@ Based on ROC-AUC score and overall performance, XGBoost was selected as the fina
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 The model was evaluated using:
 
@@ -81,23 +81,23 @@ ROC-AUC was used as the primary evaluation metric because the dataset contains c
 
 ---
 
-## 🖥️ Application Features
+## Application Features
 
-### 🔐 Secure Login System
+### Secure Login System
 
 * User authentication before accessing prediction modules
 
-### 👤 Single Prediction
+### Single Prediction
 
 * Predict default probability for an individual applicant
 
-### 📂 Bulk Prediction
+### Bulk Prediction
 
 * Upload CSV files
 * Predict multiple applicants at once
 * Download prediction results
 
-### 📊 Risk Assessment Dashboard
+### Risk Assessment Dashboard
 
 * Default Probability (%)
 * High Risk / Low Risk Classification
@@ -105,7 +105,7 @@ ROC-AUC was used as the primary evaluation metric because the dataset contains c
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas
@@ -118,7 +118,7 @@ ROC-AUC was used as the primary evaluation metric because the dataset contains c
 
 ---
 
-## ⚙️ Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/mohsiniqubal/home-loan-default-prediction.git
@@ -132,13 +132,13 @@ streamlit run app.py
 
 ---
 
-## 🌍 Deployment
+## Deployment
 
 The application is deployed using **Streamlit Community Cloud** and can be accessed through any web browser without local installation.
 
 ---
 
-## ✨ Project Highlights
+## Project Highlights
 
 * End-to-End Machine Learning Pipeline
 * Banking Risk Assessment System
@@ -150,7 +150,7 @@ The application is deployed using **Streamlit Community Cloud** and can be acces
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 home-loan-default-prediction
@@ -165,7 +165,7 @@ home-loan-default-prediction
 
 ---
 
-## 🎓 Academic Information
+## Academic Information
 
 **Degree:** Master of Computer Applications (MCA)
 
@@ -174,7 +174,7 @@ home-loan-default-prediction
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This system provides predictions based on historical data and machine learning algorithms. The results should be used as a decision-support tool and not as the sole basis for financial decisions.
 
