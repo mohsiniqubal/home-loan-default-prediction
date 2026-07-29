@@ -7,12 +7,6 @@
 
 ---
 
-## Live Demo
-
-https://home-loan-default-prediction-bysv2vz6iaqz9sjrrtyryn.streamlit.app/
-
----
-
 ## About the Project
 
 Home Loan Default Risk Prediction System is a Machine Learning-based banking risk assessment application designed to predict the probability of a borrower defaulting on a home loan.
