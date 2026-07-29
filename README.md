@@ -126,11 +126,6 @@ streamlit run app.py
 
 ---
 
-## Deployment
-
-The application is deployed using **Streamlit Community Cloud** and can be accessed through any web browser without local installation.
-
----
 
 ## Project Highlights
 
