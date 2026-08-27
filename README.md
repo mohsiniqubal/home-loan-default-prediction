@@ -1,7 +1,6 @@
 # Home Loan Default Risk Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-XGBoost-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
